@@ -4,7 +4,7 @@ Tokenometry is a local, configurable token calculator for codebases and text pro
 
 It scans a folder, counts how many tokens your files contain, and estimates how much those tokens would cost across multiple AI models.
 
-Tokenometry does **not** send your project files to paid LLM APIs. It loads tokenizers locally and counts tokens on your machine.
+Tokenometry does not send your project files to paid LLM APIs. It loads tokenizers locally and counts tokens on your machine.
 
 ---
 
@@ -94,8 +94,7 @@ To get a Hugging Face token:
 4. Go to Settings
 5. Open Access Tokens
 6. Create a new token with Read access
-7. Paste it into your env file
-Otherwise keep it empty
+7. Paste it into your env file, otherwise keep it empty
 ```
 HF_TOKEN=
 ```
