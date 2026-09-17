@@ -1,0 +1,14 @@
+# Core environment variable support
+python-dotenv>=1.0.1
+
+# OpenAI / Anthropic proxy tokenizer
+tiktoken>=0.7.0
+
+# Hugging Face tokenizer support
+transformers>=4.45.0
+huggingface-hub>=0.25.0
+tokenizers>=0.20.0
+
+# Extra tokenizer backend support for some open-source models
+sentencepiece>=0.2.0
+blobfile>=3.0.0
