@@ -305,7 +305,7 @@ def main():
         f"{'Std Input':>12} | "
         f"{'Cache Input':>12} | "
         f"{'Output':>12} | "
-        f"{'TOTAL':>12}"
+        f"{'Total':>12}"
     )
 
     print(header)
